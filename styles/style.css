@@ -45,23 +45,44 @@ section {
 }
 
 .portfolio-item {
-  border: 1px solid #dee2e6;
+  border: 1px solid orange;
   border-radius: 5px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  background-color: white;
+}
+
+body.dark-mode .portfolio-item{
+  border: 1px solid orange;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #181b24;
 }
 
 .portfolio-item:hover {
   transform: scale(1.05);
+  border: 0.5px solid orange;
 }
 
 .card-light-mode .card-title {
   color: orange;
 }
 
-.btn-style{
+
+.card-light-mode .btn-style{
   background-color: #181b24;
   color: orange;
+}
+
+body.dark-mode .btn-style{
+  background-color: white;
+  color: orange;
+}
+
+body.dark-mode .btn-style:hover{
+  color: #181b24;
+  background-color: orange;
 }
 
 .btn-style:hover{
