@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.dark-mode {
+    background-color: #181b24;
+    color: white;
+  }
+
+  header {
+    background-color: #181b24;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+
+  #darkModeButton {
+    background-color:white;
+    color: #181b24;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .portfolio-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+
+  .card-light-mode .card-title {
+    color: #181b24;
+  }
+
+  .btn-style{
+    background-color: #181b24;
+    color: #f0e1d1;
+  }
+
+  .btn-style:hover{
+    color: #181b24;
+    background-color: #d99741;
+  }
