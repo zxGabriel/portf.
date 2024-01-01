@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  color: #d99741;
+  color: orange;
   transition: background-color 0.3s ease;
   background-color: white;
   margin: 0;
@@ -17,10 +17,10 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #d99741;
+  color: orange;
   position: relative;
   height: 130px;
-  border-bottom: 1px solid #d99741;
+  border-bottom: 1px solid orange;
 }
 
 #darkModeButton {
@@ -56,15 +56,15 @@ section {
 }
 
 .card-light-mode .card-title {
-  color: #d99741;
+  color: orange;
 }
 
 .btn-style{
   background-color: #181b24;
-  color: #d99741;
+  color: orange;
 }
 
 .btn-style:hover{
   color: #181b24;
-  background-color: #d99741;
+  background-color: orange;
 }
