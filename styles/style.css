@@ -1,66 +1,70 @@
 body {
-    font-family: 'Arial', sans-serif;
-    transition: background-color 0.3s ease;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: 'Arial', sans-serif;
+  color: #d99741;
+  transition: background-color 0.3s ease;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
-  body.dark-mode {
-    background-color: #181b24;
-    color: white;
-  }
+body.dark-mode {
+  background-color: #181b24;
+}
 
-  header {
-    background-color: #181b24;
-    padding: 20px 10px;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
+header {
+  background-color: #181b24;
+  padding: 20px 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #d99741;
+  position: relative;
+  height: 130px;
+  border-bottom: 1px solid #d99741;
+}
 
-  #darkModeButton {
-    background-color:white;
-    color: #181b24;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
+#darkModeButton {
+  background-color:white;
+  color: #181b24;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
 
-  section {
-    padding: 40px 0;
-  }
+section {
+  padding: 40px 0;
+}
 
-  .portfolio-item {
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  }
+.portfolio-item {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
 
-  .portfolio-item:hover {
-    transform: scale(1.05);
-  }
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
 
-  .card-light-mode .card-title {
-    color: #181b24;
-  }
+.card-light-mode .card-title {
+  color: #d99741;
+}
 
-  .btn-style{
-    background-color: #181b24;
-    color: #f0e1d1;
-  }
+.btn-style{
+  background-color: #181b24;
+  color: #d99741;
+}
 
-  .btn-style:hover{
-    color: #181b24;
-    background-color: #d99741;
-  }
+.btn-style:hover{
+  color: #181b24;
+  background-color: #d99741;
+}
